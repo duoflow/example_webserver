@@ -1,0 +1,13 @@
+[Unit]
+Description=webapi demo service
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=osadmin
+ExecStart=/usr/bin/webapi/webapi
+
+[Install]
+WantedBy=multi-user.target
