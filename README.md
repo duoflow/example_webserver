@@ -18,3 +18,7 @@ cp ./webapi /usr/bin/webapi/
 5) start your brand new web-service
 
 systemctl start webapi.service
+
+6)  check out how the service works
+
+http://[Server's IP addr]:8080/
